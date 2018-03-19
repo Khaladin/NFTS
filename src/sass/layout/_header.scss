@@ -1,0 +1,100 @@
+.header {
+  height: 33vh;
+  width: 100vw;
+  background-image:linear-gradient(to right bottom, rgba(177, 177, 177, .7), rgba(177, 177, 177, .9)),
+  url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+
+  background-size: cover;
+  background-position: 25% 60%;
+  z-index: -1;
+  display: inline-block;
+  box-sizing: border-box;
+
+  &__text-box {
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 55%;
+    background-color: rgba(115, 115, 135, .05);
+    border-radius: 4rem;
+    color: #1e1b1b;
+
+    &__title {
+      margin: 1rem 4rem;
+      padding-bottom: 1rem;
+      font-size: 3.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      border-bottom: 1px solid black;
+
+    }
+
+    &__mission {
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      font-size: 2.4rem;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    &__about {
+      margin: 2rem;
+      font-size: 2.2rem;
+      font-weight: 400;
+    }
+  }
+}
+
+@media only screen and (max-width: 42.5rem) {
+  .header {
+    height: 28vh;
+    width: 100vw;
+    background-image:linear-gradient(to right bottom, rgba(177, 177, 177, .8), rgba(177, 177, 177, .9)),
+    url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+
+    background-size: cover;
+    background-position: 25% 60%;
+    transform: translateY(-1.5rem);
+    z-index: -1;
+    display: inline-block;
+    box-sizing: border-box;
+
+    &__text-box {
+      display: inline-block;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      width: 55%;
+      background-color: rgba(115, 115, 135, .05);
+      border-radius: 4rem;
+      color: #1e1b1b;
+
+      &__title {
+        margin: 1rem 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid black;
+
+      }
+
+      &__mission {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+      }
+
+      &__about {
+        margin: 1rem;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+}

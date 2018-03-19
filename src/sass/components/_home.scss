@@ -1,0 +1,163 @@
+.home {
+  background-color: #eee;
+
+  &__banner {
+    margin: 0rem 8rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+    background-color: white;
+    border-radius: 6px;
+  }
+
+  &__info-box {
+    height: 120rem;
+    position: relative;
+    background-color: $menu-grey;
+    border-radius: 6px;
+    margin-bottom: 4rem;
+    box-shadow: 4px 6px 8px rgba(0,0,0, 0.4);
+
+
+    &__sub-title-services {
+      height: 34rem;
+      width: 80%;
+      margin: 2rem 6rem;
+      padding-top: 30%;
+      font-size: 6rem;
+      font-weight: 500;
+      text-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+      text-align: center;
+      background-image: linear-gradient( rgba(238, 238, 238, .5), rgba(238, 238, 238, .7)),
+      url(https://www.raecorents.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/1/0/1000-tsi-portacount-8038-mask-pc.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 3px;
+
+    }
+
+    &__sub-title-benefits {
+      height: 34rem;
+      width: 80%;
+      margin: 2rem 6rem;
+      padding-top: 30%;
+      font-size: 6rem;
+      font-weight: 500;
+      text-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+      text-align: center;
+      background-image: linear-gradient( rgba(238, 238, 238, .5), rgba(238, 238, 238, .7)),
+      url(http://www.nliginvestments.co.uk/images/images/corporate-cleints/nlig-investments-employee-benefits.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 3px;
+
+    }
+
+    &__content {
+      margin: 6rem 8rem;
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+
+  }
+
+  &__list-left {
+    list-style-type: none;
+    margin: 2rem 3rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #aaa;
+  }
+
+  &__list-right {
+    list-style-type: none;
+    margin: 2rem;
+    border-bottom: 1px solid #aaa;
+  }
+}
+
+@media only screen and (max-width: 42.5rem) {
+  .home {
+    transform: translateY(-2rem);
+    background-color: #eee;
+
+    &__banner {
+      margin: 0rem 8rem;
+      padding: 3rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 300;
+      background-color: white;
+      border-radius: 6px;
+    }
+
+    &__info-box {
+      height: 94rem;
+      position: relative;
+      background-color: $menu-grey;
+      border-radius: 6px;
+      margin-bottom: 4rem;
+      box-shadow: 4px 6px 8px rgba(0,0,0, 0.4);
+
+
+      &__sub-title-services {
+        height: 15rem;
+        margin: 2rem 2rem;
+        padding-top: 30%;
+        font-size: 2rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+        text-align: center;
+        background-image: linear-gradient( rgba(238, 238, 238, .5), rgba(238, 238, 238, .7)),
+        url(https://www.raecorents.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/1/0/1000-tsi-portacount-8038-mask-pc.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 3px;
+
+      }
+
+      &__sub-title-benefits {
+        height: 15rem;
+
+        margin: 2rem 2rem;
+        padding-top: 30%;
+        font-size: 2rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgba(0,0,0, 0.4);
+        text-align: center;
+        background-image: linear-gradient( rgba(238, 238, 238, .5), rgba(238, 238, 238, .7)),
+        url(http://www.nliginvestments.co.uk/images/images/corporate-cleints/nlig-investments-employee-benefits.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 3px;
+
+      }
+
+      &__content {
+        margin: 1rem 1rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+
+    }
+
+    &__list-left {
+      list-style-type: none;
+      margin: 1rem 2rem;
+      padding-top: 1.5rem;
+      border-bottom: 1px solid #aaa;
+    }
+
+    &__list-right {
+      list-style-type: none;
+      margin: .8rem;
+      border-bottom: 1px solid #aaa;
+    }
+  }
+}

@@ -1,0 +1,251 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+.home {
+  background-color: #eee; }
+  .home__banner {
+    margin: 0rem 8rem;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 300;
+    background-color: white;
+    border-radius: 6px; }
+  .home__info-box {
+    height: 120rem;
+    position: relative;
+    background-color: #2f2f2f;
+    border-radius: 6px;
+    margin-bottom: 4rem;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.4); }
+    .home__info-box__sub-title-services {
+      height: 34rem;
+      width: 80%;
+      margin: 2rem 6rem;
+      padding-top: 30%;
+      font-size: 6rem;
+      font-weight: 500;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      background-image: linear-gradient(rgba(238, 238, 238, 0.5), rgba(238, 238, 238, 0.7)), url(https://www.raecorents.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/1/0/1000-tsi-portacount-8038-mask-pc.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 3px; }
+    .home__info-box__sub-title-benefits {
+      height: 34rem;
+      width: 80%;
+      margin: 2rem 6rem;
+      padding-top: 30%;
+      font-size: 6rem;
+      font-weight: 500;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      background-image: linear-gradient(rgba(238, 238, 238, 0.5), rgba(238, 238, 238, 0.7)), url(http://www.nliginvestments.co.uk/images/images/corporate-cleints/nlig-investments-employee-benefits.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 3px; }
+    .home__info-box__content {
+      margin: 6rem 8rem;
+      font-size: 2.5rem;
+      font-weight: 300;
+      color: #fff;
+      text-align: center;
+      padding-bottom: 3rem; }
+  .home__list-left {
+    list-style-type: none;
+    margin: 2rem 3rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #aaa; }
+  .home__list-right {
+    list-style-type: none;
+    margin: 2rem;
+    border-bottom: 1px solid #aaa; }
+
+@media only screen and (max-width: 42.5rem) {
+  .home {
+    transform: translateY(-2rem);
+    background-color: #eee; }
+    .home__banner {
+      margin: 0rem 8rem;
+      padding: 3rem;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 300;
+      background-color: white;
+      border-radius: 6px; }
+    .home__info-box {
+      height: 94rem;
+      position: relative;
+      background-color: #2f2f2f;
+      border-radius: 6px;
+      margin-bottom: 4rem;
+      box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.4); }
+      .home__info-box__sub-title-services {
+        height: 15rem;
+        margin: 2rem 2rem;
+        padding-top: 30%;
+        font-size: 2rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        background-image: linear-gradient(rgba(238, 238, 238, 0.5), rgba(238, 238, 238, 0.7)), url(https://www.raecorents.com/pub/media/catalog/product/cache/image/700x560/e9c3970ab036de70892d86c6d221abfe/1/0/1000-tsi-portacount-8038-mask-pc.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 3px; }
+      .home__info-box__sub-title-benefits {
+        height: 15rem;
+        margin: 2rem 2rem;
+        padding-top: 30%;
+        font-size: 2rem;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        background-image: linear-gradient(rgba(238, 238, 238, 0.5), rgba(238, 238, 238, 0.7)), url(http://www.nliginvestments.co.uk/images/images/corporate-cleints/nlig-investments-employee-benefits.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 3px; }
+      .home__info-box__content {
+        margin: 1rem 1rem;
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 1rem; }
+    .home__list-left {
+      list-style-type: none;
+      margin: 1rem 2rem;
+      padding-top: 1.5rem;
+      border-bottom: 1px solid #aaa; }
+    .home__list-right {
+      list-style-type: none;
+      margin: .8rem;
+      border-bottom: 1px solid #aaa; } }
+
+.navigation {
+  background-color: #2f2f2f;
+  height: 9rem; }
+  .navigation__item {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 2.5rem 1rem;
+    padding-right: 2rem;
+    list-style: none;
+    font-size: 2.7rem;
+    border-right: 1px solid #f2f2f2; }
+
+@media only screen and (max-width: 42.5rem) {
+  .navigation {
+    height: 8vh; }
+    .navigation__item {
+      float: right;
+      padding: .5rem .1rem;
+      font-size: 1rem; } }
+
+.header {
+  height: 33vh;
+  width: 100vw;
+  background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.7), rgba(177, 177, 177, 0.9)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+  background-size: cover;
+  background-position: 25% 60%;
+  z-index: -1;
+  display: inline-block;
+  box-sizing: border-box; }
+  .header__text-box {
+    display: inline-block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 55%;
+    background-color: rgba(115, 115, 135, 0.05);
+    border-radius: 4rem;
+    color: #1e1b1b; }
+    .header__text-box__title {
+      margin: 1rem 4rem;
+      padding-bottom: 1rem;
+      font-size: 3.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      border-bottom: 1px solid black; }
+    .header__text-box__mission {
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+      font-size: 2.4rem;
+      font-weight: 500;
+      text-align: center; }
+    .header__text-box__about {
+      margin: 2rem;
+      font-size: 2.2rem;
+      font-weight: 400; }
+
+@media only screen and (max-width: 42.5rem) {
+  .header {
+    height: 28vh;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.8), rgba(177, 177, 177, 0.9)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+    background-size: cover;
+    background-position: 25% 60%;
+    transform: translateY(-1.5rem);
+    z-index: -1;
+    display: inline-block;
+    box-sizing: border-box; }
+    .header__text-box {
+      display: inline-block;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      width: 55%;
+      background-color: rgba(115, 115, 135, 0.05);
+      border-radius: 4rem;
+      color: #1e1b1b; }
+      .header__text-box__title {
+        margin: 1rem 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid black; }
+      .header__text-box__mission {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center; }
+      .header__text-box__about {
+        margin: 1rem;
+        font-size: 1rem;
+        font-weight: 400; } }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+
+.row:not(:last-child) {
+  margin-bottom: 8rem; }
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.row [class^="col-"] {
+  float: left; }
+
+.row [class^="col-"]:not(:last-child) {
+  margin-right: 6rem; }
+
+.row .col-1-of-2 {
+  width: calc(( 100% - 6rem) / 2); }

@@ -1,0 +1,38 @@
+.navigation {
+  background-color: $menu-grey;
+  height: 9rem;
+
+
+  &__nav {
+
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 2.5rem 1rem;
+    padding-right: 2rem;
+    list-style: none;
+    font-size: 2.7rem;
+    border-right: 1px solid #f2f2f2;
+
+
+  }
+}
+
+@media only screen and (max-width: 42.5rem) {
+  .navigation {
+    height: 8vh;
+
+    &__item {
+      float: right;
+      padding: .5rem .1rem;
+      font-size:1rem;
+    }
+  }
+}
