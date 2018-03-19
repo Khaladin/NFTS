@@ -79,16 +79,17 @@
   }
 }
 
-@media only screen and (max-width: 42.5rem) {
+@media only screen and (max-width: 32rem) {
   .home {
     transform: translateY(-2rem);
     background-color: #eee;
 
     &__banner {
-      margin: 0rem 8rem;
-      padding: 3rem;
+      width: 95%;
+      margin: 1rem 1rem;
+      padding: 1rem;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 300;
       background-color: white;
       border-radius: 6px;
@@ -96,16 +97,17 @@
 
     &__info-box {
       height: 94rem;
+      width: 100%;
       position: relative;
       background-color: $menu-grey;
-      border-radius: 6px;
+      border-radius: 4px;
       margin-bottom: 4rem;
       box-shadow: 4px 6px 8px rgba(0,0,0, 0.4);
 
 
       &__sub-title-services {
         height: 15rem;
-        margin: 2rem 2rem;
+        margin: 1rem 1.5rem;
         padding-top: 30%;
         font-size: 2rem;
         font-weight: 500;
@@ -121,8 +123,7 @@
 
       &__sub-title-benefits {
         height: 15rem;
-
-        margin: 2rem 2rem;
+        margin: 1rem 1.5rem;
         padding-top: 30%;
         font-size: 2rem;
         font-weight: 500;
@@ -138,7 +139,7 @@
 
       &__content {
         margin: 1rem 1rem;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 300;
         color: #fff;
         text-align: center;

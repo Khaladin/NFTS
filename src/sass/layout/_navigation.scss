@@ -25,14 +25,15 @@
   }
 }
 
-@media only screen and (max-width: 42.5rem) {
+@media only screen and (max-width: 32rem) {
   .navigation {
     height: 8vh;
 
     &__item {
       float: right;
-      padding: .5rem .1rem;
-      font-size:1rem;
+      margin: 1rem .5rem;
+      padding: .5rem .4rem;
+      font-size:.8rem;
     }
   }
 }

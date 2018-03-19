@@ -72,28 +72,30 @@ body {
     margin: 2rem;
     border-bottom: 1px solid #aaa; }
 
-@media only screen and (max-width: 42.5rem) {
+@media only screen and (max-width: 32rem) {
   .home {
     transform: translateY(-2rem);
     background-color: #eee; }
     .home__banner {
-      margin: 0rem 8rem;
-      padding: 3rem;
+      width: 95%;
+      margin: 1rem 1rem;
+      padding: 1rem;
       text-align: center;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 300;
       background-color: white;
       border-radius: 6px; }
     .home__info-box {
       height: 94rem;
+      width: 100%;
       position: relative;
       background-color: #2f2f2f;
-      border-radius: 6px;
+      border-radius: 4px;
       margin-bottom: 4rem;
       box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.4); }
       .home__info-box__sub-title-services {
         height: 15rem;
-        margin: 2rem 2rem;
+        margin: 1rem 1.5rem;
         padding-top: 30%;
         font-size: 2rem;
         font-weight: 500;
@@ -105,7 +107,7 @@ body {
         border-radius: 3px; }
       .home__info-box__sub-title-benefits {
         height: 15rem;
-        margin: 2rem 2rem;
+        margin: 1rem 1.5rem;
         padding-top: 30%;
         font-size: 2rem;
         font-weight: 500;
@@ -117,7 +119,7 @@ body {
         border-radius: 3px; }
       .home__info-box__content {
         margin: 1rem 1rem;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         font-weight: 300;
         color: #fff;
         text-align: center;
@@ -145,13 +147,14 @@ body {
     font-size: 2.7rem;
     border-right: 1px solid #f2f2f2; }
 
-@media only screen and (max-width: 42.5rem) {
+@media only screen and (max-width: 32rem) {
   .navigation {
     height: 8vh; }
     .navigation__item {
       float: right;
-      padding: .5rem .1rem;
-      font-size: 1rem; } }
+      margin: 1rem .5rem;
+      padding: .5rem .4rem;
+      font-size: .8rem; } }
 
 .header {
   height: 33vh;
@@ -190,14 +193,14 @@ body {
       font-size: 2.2rem;
       font-weight: 400; }
 
-@media only screen and (max-width: 42.5rem) {
+@media only screen and (max-width: 32rem) {
   .header {
     height: 28vh;
     width: 100vw;
-    background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.8), rgba(177, 177, 177, 0.9)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+    background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.4), rgba(200, 200, 200, 0.95)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
     background-size: cover;
-    background-position: 25% 60%;
-    transform: translateY(-1.5rem);
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: -1;
     display: inline-block;
     box-sizing: border-box; }
@@ -205,8 +208,8 @@ body {
       display: inline-block;
       margin-left: 1rem;
       margin-top: 1rem;
-      width: 55%;
-      background-color: rgba(115, 115, 135, 0.05);
+      width: 100%;
+      background-color: rgba(200, 200, 200, 0.01);
       border-radius: 4rem;
       color: #1e1b1b; }
       .header__text-box__title {
@@ -221,12 +224,12 @@ body {
         margin-top: 2rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: 500;
         text-align: center; }
       .header__text-box__about {
         margin: 1rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: 400; } }
 
 .row {
