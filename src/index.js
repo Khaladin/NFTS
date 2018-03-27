@@ -10,6 +10,9 @@ import './sass/main.css';
 import App from './App';
 import Header from './components/header';
 import Home from './components/home';
+import Company from './components/company';
+import Services from './components/services';
+import FitTesting from './components/fit-testing';
 
 
 ReactDOM.render(
@@ -18,6 +21,9 @@ ReactDOM.render(
       <Route component={App} />
       <Route component={Header} />
       <Switch>
+        <Route path='/fit-testing' component={FitTesting} />
+        <Route path='/services' component={Services} />
+        <Route path='/company' component={Company} />
         <Route path='/' component={Home} />
       </Switch>
     </div>

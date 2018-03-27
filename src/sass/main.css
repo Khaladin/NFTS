@@ -10,7 +10,8 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #eee; }
 
 .home {
   background-color: #eee; }
@@ -134,18 +135,194 @@ body {
       margin: .8rem;
       border-bottom: 1px solid #aaa; } }
 
+.company {
+  padding-bottom: 2rem;
+  border-radius: 6px; }
+  .company__title {
+    font-size: 5.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    background: linear-gradient(#2f2f2f, #eee);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px); }
+  .company__content {
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: #1e1b1b;
+    border-radius: 3px; }
+    .company__content__paragraph {
+      margin: 2rem 8rem;
+      padding: 2rem;
+      border-radius: 6px;
+      background-color: #fff;
+      box-shadow: 2px 4px 2px rgba(12, 12, 12, 0.3); }
+
+@media only screen and (max-width: 32rem) {
+  .company {
+    transform: translateY(-4px); }
+    .company__title {
+      margin: 0;
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: .5rem;
+      background: linear-gradient(#2f2f2f, #ccc); }
+    .company__content {
+      font-size: 1.3rem;
+      background-color: #ccc;
+      color: #1e1b1b;
+      border-radius: 3px; }
+      .company__content__paragraph {
+        margin: 2rem 1rem;
+        padding: 2rem;
+        border-radius: 6px;
+        background-color: #fff; } }
+
+@media only screen and (max-width: 77rem) {
+  .company {
+    transform: translateY(-4px); }
+    .company__title {
+      margin: 0;
+      font-size: 3rem;
+      text-align: center;
+      padding-bottom: .5rem;
+      background: linear-gradient(#2f2f2f, #ccc); }
+    .company__content {
+      font-size: 1.3rem;
+      background-color: #ccc;
+      color: #1e1b1b;
+      border-radius: 3px; }
+      .company__content__paragraph {
+        margin: 2rem 1rem;
+        padding: 2rem;
+        border-radius: 6px;
+        background-color: #fff; } }
+
+.services__title {
+  margin-bottom: 2rem;
+  background: linear-gradient(#2f2f2f, #eee);
+  font-weight: 500;
+  font-size: 5.4rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1rem;
+  transform: translateY(-4px); }
+
+.services__list {
+  margin: 2rem 9rem;
+  list-style: none; }
+  .services__list__item {
+    margin: 2.5rem 1rem;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(21, 21, 21, 0.2);
+    border-left: 1rem solid rgba(58, 50, 168, 0.9); }
+    .services__list__item__title {
+      font-size: 3.4rem;
+      padding-left: 6rem;
+      padding-right: 3rem;
+      padding-bottom: .4rem;
+      border-bottom: 1px solid #bbb;
+      display: inline-block; }
+    .services__list__item__content {
+      padding: 1rem 3rem;
+      font-size: 1.8rem; }
+
+.fit-testing__title {
+  margin-bottom: 2rem;
+  background: linear-gradient(#2f2f2f, #eee);
+  font-weight: 500;
+  font-size: 5.4rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 1rem 1rem;
+  transform: translateY(-4px); }
+
+.fit-testing__card {
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative; }
+  .fit-testing__card__title {
+    font-size: 4rem;
+    padding: 2rem 4rem; }
+  .fit-testing__card__title-qnft {
+    display: block;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    padding: 2rem 4rem;
+    width: 80%;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(http://onsitemobilediagnostics.com/wp-content/uploads/sites/108/2016/10/PortaCount_Full_half-face.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+  .fit-testing__card__title-qlft {
+    display: block;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 4rem;
+    width: 80%;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://static1.squarespace.com/static/53887940e4b01b8002b23334/t/558a8e0fe4b0cdce3adf9b9f/1435143697100/);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
+  .fit-testing__card__content {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 2rem 1rem;
+    padding: 2rem; }
+
+.fit-testing__list {
+  list-style: square inside;
+  margin: 3rem 2rem; }
+  .fit-testing__list__item-conditions {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 2rem 0;
+    padding-bottom: 2rem; }
+  .fit-testing__list__item-training {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 2rem 0;
+    padding-bottom: 1rem; }
+
 .navigation {
-  background-color: #2f2f2f;
-  height: 9rem; }
+  background: linear-gradient(#ccc, #2f2f2f);
+  height: 8rem;
+  width: 100%;
+  position: fixed;
+  z-index: 10; }
   .navigation__item {
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin: 2.5rem 1rem;
+    margin: 1.5rem 1rem;
     padding-right: 2rem;
     list-style: none;
     font-size: 2.7rem;
     border-right: 1px solid #f2f2f2; }
+
+@media only screen and (max-width: 74rem) {
+  .navigation {
+    background-color: #2f2f2f;
+    height: 9rem; }
+    .navigation__item {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      margin: 2.5rem 1rem;
+      padding-right: 2rem;
+      list-style: none;
+      font-size: 1.8rem;
+      border-right: 1px solid #f2f2f2; } }
 
 @media only screen and (max-width: 32rem) {
   .navigation {
@@ -154,14 +331,16 @@ body {
       float: right;
       margin: 1rem .5rem;
       padding: .5rem .4rem;
-      font-size: .8rem; } }
+      font-size: .85rem; } }
 
 .header {
+  margin-top: 8rem;
   height: 33vh;
   width: 100vw;
   background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.7), rgba(177, 177, 177, 0.9)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
   background-size: cover;
   background-position: 25% 60%;
+  overflow: hidden;
   z-index: -1;
   display: inline-block;
   box-sizing: border-box; }
@@ -193,7 +372,7 @@ body {
       font-size: 2.2rem;
       font-weight: 400; }
 
-@media only screen and (max-width: 32rem) {
+@media only screen and (max-width: 76rem) {
   .header {
     height: 28vh;
     width: 100vw;
@@ -213,9 +392,9 @@ body {
       border-radius: 4rem;
       color: #1e1b1b; }
       .header__text-box__title {
-        margin: 1rem 2rem;
-        padding-bottom: 1rem;
-        font-size: 1.5rem;
+        margin: 2rem 4rem;
+        padding-bottom: .5rem;
+        font-size: 2.5rem;
         font-weight: 700;
         text-transform: uppercase;
         text-align: center;
@@ -224,12 +403,51 @@ body {
         margin-top: 2rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: 500;
         text-align: center; }
       .header__text-box__about {
         margin: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-align: center; } }
+
+@media only screen and (max-width: 32rem) {
+  .header {
+    height: 28vh;
+    width: 100vw;
+    background-image: linear-gradient(to right bottom, rgba(177, 177, 177, 0.4), rgba(200, 200, 200, 0.95)), url(https://media.istockphoto.com/photos/man-wearing-respirator-picture-id147511829);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    display: inline-block;
+    box-sizing: border-box; }
+    .header__text-box {
+      display: inline-block;
+      margin-left: 1rem;
+      margin-top: .5rem;
+      width: 95%;
+      background-color: rgba(200, 200, 200, 0.01);
+      border-radius: 4rem;
+      color: #1e1b1b; }
+      .header__text-box__title {
+        margin: 1rem 2rem;
+        padding-bottom: 1rem;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid black; }
+      .header__text-box__mission {
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-align: center; }
+      .header__text-box__about {
+        margin: 1rem;
+        font-size: 1.4rem;
         font-weight: 400; } }
 
 .row {

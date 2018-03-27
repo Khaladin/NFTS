@@ -1,7 +1,9 @@
 .navigation {
-  background-color: $menu-grey;
-  height: 9rem;
-
+  background: linear-gradient(#ccc, $menu-grey);
+  height: 8rem;
+  width:100%;
+  position: fixed;
+  z-index: 10;
 
   &__nav {
 
@@ -15,13 +17,34 @@
     float: right;
     color: #f2f2f2;
     text-align: center;
-    margin: 2.5rem 1rem;
+    margin: 1.5rem 1rem;
     padding-right: 2rem;
     list-style: none;
     font-size: 2.7rem;
     border-right: 1px solid #f2f2f2;
 
 
+  }
+}
+
+@media only screen and (max-width: 74rem) {
+  .navigation {
+    background-color: $menu-grey;
+    height: 9rem;
+
+
+    &__item {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      margin: 2.5rem 1rem;
+      padding-right: 2rem;
+      list-style: none;
+      font-size: 1.8rem;
+      border-right: 1px solid #f2f2f2;
+
+
+    }
   }
 }
 
@@ -33,7 +56,7 @@
       float: right;
       margin: 1rem .5rem;
       padding: .5rem .4rem;
-      font-size:.8rem;
+      font-size: .85rem;
     }
   }
 }

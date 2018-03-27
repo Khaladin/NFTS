@@ -1,0 +1,40 @@
+.services {
+
+  &__title {
+    margin-bottom: 2rem;
+    background: linear-gradient($menu-grey, #eee);
+    font-weight: 500;
+    font-size: 5.4rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,.2);
+    padding: 1rem 1rem;
+    transform: translateY(-4px);
+  }
+
+  &__list {
+    margin: 2rem 9rem;
+    list-style: none;
+
+    &__item {
+      margin: 2.5rem 1rem;
+      background-color: #fff;
+      box-shadow: 2px 2px 2px rgba(21,21,21,.2);
+      border-left: 1rem solid rgba(58, 50, 168, .9);
+
+      &__title {
+        font-size: 3.4rem;
+        padding-left: 6rem;
+        padding-right: 3rem;
+        padding-bottom: .4rem;
+        border-bottom: 1px solid #bbb;
+        display: inline-block;
+      }
+
+      &__content {
+        padding: 1rem 3rem;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

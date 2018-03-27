@@ -1,0 +1,82 @@
+.fit-testing {
+
+  &__title {
+    margin-bottom: 2rem;
+    background: linear-gradient($menu-grey, #eee);
+    font-weight: 500;
+    font-size: 5.4rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,.2);
+    padding: 1rem 1rem;
+    transform: translateY(-4px);
+  }
+
+  &__card {
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+
+    &__title {
+      font-size: 4rem;
+      padding: 2rem 4rem;
+    }
+
+    &__title-qnft {
+      display: block;
+      font-size: 3rem;
+      color: black;
+      text-align: center;
+      padding: 2rem 4rem;
+      width: 80%;
+      height: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url(http://onsitemobilediagnostics.com/wp-content/uploads/sites/108/2016/10/PortaCount_Full_half-face.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &__title-qlft {
+      display: block;
+      font-size: 3rem;
+      color: white;
+      text-align: center;
+      padding: 2rem 4rem;
+      width: 80%;
+      height: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+      background-image: url(https://static1.squarespace.com/static/53887940e4b01b8002b23334/t/558a8e0fe4b0cdce3adf9b9f/1435143697100/);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+    }
+
+    &__content {
+      font-size: 2rem;
+      font-weight:300;
+      margin: 2rem 1rem;
+      padding: 2rem;
+    }
+  }
+
+  &__list {
+    list-style: square inside;
+    margin: 3rem 2rem;
+
+
+    &__item-conditions {
+      font-size: 2rem;
+      font-weight: 300;
+      margin: 2rem 0;
+      padding-bottom: 2rem;
+    }
+
+    &__item-training {
+      font-size: 2rem;
+      font-weight: 300;
+      margin: 2rem 0;
+      padding-bottom: 1rem;
+    }
+  }
+}
