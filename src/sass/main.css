@@ -294,6 +294,23 @@ body {
     margin: 2rem 0;
     padding-bottom: 1rem; }
 
+.contact {
+  font-size: 2rem; }
+  .contact__info {
+    font-size: 2.2rem;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    margin-top: 5rem; }
+  .contact__thanks {
+    font-size: 3rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    text-align: center; }
+
+.form {
+  background-color: #fff;
+  z-index: -10; }
+
 .navigation {
   background: linear-gradient(#ccc, #2f2f2f);
   height: 8rem;

@@ -15,6 +15,7 @@ import Services from './components/services';
 import FitTesting from './components/fit-testing';
 import Footer from './components/footer';
 import ScrollToTopRoute from './components/scrollToTopRoute.js';
+import Contact from './components/contact';
 
 
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
         <ScrollToTopRoute path='/fit-testing' component={FitTesting} />
         <ScrollToTopRoute path='/services' component={Services} />
         <ScrollToTopRoute path='/company' component={Company} />
+        <ScrollToTopRoute path='/contact' component={Contact} />
         <ScrollToTopRoute path='/' component={Home} />
       </Switch>
       <Route component={Footer} />
