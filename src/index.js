@@ -14,18 +14,19 @@ import Company from './components/company';
 import Services from './components/services';
 import FitTesting from './components/fit-testing';
 import Footer from './components/footer';
+import ScrollToTopRoute from './components/scrollToTopRoute.js';
 
 
 ReactDOM.render(
-  <Router>
+  <Router onUpdate={() => window.scrollTo(0, 0)}>
     <div>
       <Route component={App} />
       <Route component={Header} />
       <Switch>
-        <Route path='/fit-testing' component={FitTesting} />
-        <Route path='/services' component={Services} />
-        <Route path='/company' component={Company} />
-        <Route path='/' component={Home} />
+        <ScrollToTopRoute path='/fit-testing' component={FitTesting} />
+        <ScrollToTopRoute path='/services' component={Services} />
+        <ScrollToTopRoute path='/company' component={Company} />
+        <ScrollToTopRoute path='/' component={Home} />
       </Switch>
       <Route component={Footer} />
     </div>

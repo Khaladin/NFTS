@@ -17,14 +17,18 @@
 
   &__list {
     list-style: none;
+    display: block;
 
 
-    &__item {
+    &__item, a:link, a:visited {
+
       font-size: 2rem;
+      text-decoration: underline;
+      color: #fff;
     }
 
     &__social {
-      font-size: 2rem;
+      font-size: 3.5rem;
     }
 
     &__image {
@@ -59,4 +63,8 @@
 
     }
   }
+}
+
+.twitter-widg {
+  font-size: 3rem;
 }

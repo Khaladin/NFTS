@@ -489,11 +489,14 @@ body {
     font-size: 1.5rem;
     text-align: left; }
   .footer__list {
-    list-style: none; }
-    .footer__list__item {
-      font-size: 2rem; }
+    list-style: none;
+    display: block; }
+    .footer__list__item, .footer__list a:link, .footer__list a:visited {
+      font-size: 2rem;
+      text-decoration: underline;
+      color: #fff; }
     .footer__list__social {
-      font-size: 2rem; }
+      font-size: 3.5rem; }
     .footer__list__image {
       font-size: 2rem; }
     .footer__list__image-1 {
@@ -516,3 +519,6 @@ body {
       background-image: url(https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/542889e9e4b0a449ee2b6f15/1411942889721/);
       background-size: contain;
       background-repeat: no-repeat; }
+
+.twitter-widg {
+  font-size: 3rem; }
