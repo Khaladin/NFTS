@@ -1,0 +1,62 @@
+.footer {
+  margin-bottom: 2rem;
+  background-color: $menu-grey;
+  font-weight: 500;
+  font-size: 5.4rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0,0,0,.2);
+  padding: 1rem 1rem;
+
+  &__copyright {
+    border-bottom: 1px solid #bbb;
+    margin: 2rem 12rem;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  &__list {
+    list-style: none;
+
+
+    &__item {
+      font-size: 2rem;
+    }
+
+    &__social {
+      font-size: 2rem;
+    }
+
+    &__image {
+      font-size: 2rem;
+    }
+    &__image-1 {
+      height: 3rem;
+      width: 40rem;
+      background-image: url(https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/5a5546ac9140b722fd9e06fb/1515624699716/wben-org-footer.png?format=750w);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+
+    &__image-2 {
+      margin: 1rem 0;
+      height: 5rem;
+      width: 20rem;
+      background-image: url(https://nebula.wsimg.com/44dd4823a945a2e2c198b64db8f35580?AccessKeyId=D5A127DEB52F12DAE37E&disposition=0&alloworigin=1);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+
+    &__image-3 {
+      margin: 1rem 0;
+      height: 10rem;
+      width: 40rem;
+      background-image: url(https://static1.squarespace.com/static/53ee2f53e4b08ae50e0b57a4/t/542889e9e4b0a449ee2b6f15/1411942889721/);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+  }
+}

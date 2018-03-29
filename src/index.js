@@ -13,6 +13,7 @@ import Home from './components/home';
 import Company from './components/company';
 import Services from './components/services';
 import FitTesting from './components/fit-testing';
+import Footer from './components/footer';
 
 
 ReactDOM.render(
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path='/company' component={Company} />
         <Route path='/' component={Home} />
       </Switch>
+      <Route component={Footer} />
     </div>
   </Router>
 
